@@ -233,7 +233,7 @@ a {
     text-align: center;
   }
   .nav-bar ul li a.active::before {
-    bottom: -21px;
+    display: none; 
   }
   .nav-bar ul li::before {
     bottom: -10px;
