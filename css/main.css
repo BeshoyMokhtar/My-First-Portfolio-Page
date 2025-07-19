@@ -221,6 +221,13 @@ a {
     flex-direction: column;
     align-items: center;
   }
+  .header ul {
+    display: none;
+  }
+  .header .container:hover ul{
+    flex-direction: column;
+    text-align: center;
+  }
   .nav-bar ul li a.active::before {
     bottom: -21px;
   }
