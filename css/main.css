@@ -224,6 +224,9 @@ a {
   .header ul {
     display: none;
   }
+  .header ul li {
+    margin-bottom: 20px; 
+    } 
   .header .container:hover ul{
     display: flex; 
     flex-direction: column;
