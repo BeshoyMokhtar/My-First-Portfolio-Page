@@ -230,7 +230,7 @@ a {
 }
 .home .container {
   height: calc(100vh - 66px);
-  background-image: url(/images/home.jpg);
+  background-image: url(../images/home.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
