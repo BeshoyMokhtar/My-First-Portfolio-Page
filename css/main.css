@@ -238,7 +238,7 @@ a {
 } 
 .skills .lang-container {
   margin: 0 auto 40px;
-  flex-basis: 45%; 
+  width: 45%; 
 }
 .skills .lang-container:last-child {
   margin: 0 auto;
@@ -292,6 +292,13 @@ a {
   right: -8px;
   top: -7px;
 }
+/*skills media*/
+@media (max-width:767px){
+.lang-container {
+  width:90%; 
+} 
+} 
+
 .portfolio a {
   color: inherit;
 }
