@@ -36,8 +36,6 @@ a {
   color: #555;
 }
 .section-title {
-  animation: sec-title 1s infinite linear;
-  -webkit-animation: sec-title 1s infinite linear;
   padding: var(--section-padding) 0;
   position: relative;
   margin: 0 auto;
@@ -58,72 +56,23 @@ a {
   animation: sec-ti-before 400ms infinite;
   -webkit-animation: sec-ti-before 400ms infinite;
 }
-.section-content {
-  animation: sec-content 1s infinite linear;
-  -webkit-animation: sec-content 1s infinite linear;
-}
-@keyframes sec-title {
-  0%,
-  100% {
-    background-image: linear-gradient(#ccc, #eee);
-  }
-  50% {
-    background-image: linear-gradient(#eee, #ccc);
-  }
-}
 @keyframes sec-ti-before {
   0%,
   100% {
     background-image: linear-gradient(
       270deg,
       var(--main-color),
-      black,
-      red,
-      yellow,
-      var(--main-green)
+      var(--m-color-l-opacity)
     );
   }
-  20% {
+  50% {
     background-image: linear-gradient(
       270deg,
-      black,
-      red,
-      yellow,
-      var(--main-green),
+      var(--m-color-l-opacity), 
       var(--main-color)
     );
   }
-  40% {
-    background-image: linear-gradient(
-      270deg,
-      red,
-      yellow,
-      var(--main-green),
-      var(--main-color),
-      black
-    );
   }
-  60% {
-    background-image: linear-gradient(
-      270deg,
-      yellow,
-      var(--main-green),
-      var(--main-color),
-      black,
-      red
-    );
-  }
-  80% {
-    background-image: linear-gradient(
-      270deg,
-      var(--main-green),
-      var(--main-color),
-      black,
-      red,
-      yellow
-    );
-  }
-}
 @keyframes sec-content {
   0%,
   100% {
